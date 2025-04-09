@@ -81,7 +81,6 @@ nav > ul {
 
 .footer-sec {
     background-color: #08143ed8;
-    /* background-color: #283646; */
     color: white;
     padding: 1rem;
 }
@@ -106,16 +105,21 @@ nav > ul {
 
 /* . */
 .road-paving {
-    background-color: #08143E;
+    background-color: #08143ed8;
 }
 
 .intreesting-numbers {
     background-color: rgba(0, 0, 0, 0.897);
-    /* background-image: url(./image/CAT.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 70vh; */
+}
+.dark-hero {
+    background-color: rgba(0, 0, 0, 0.664);
 }
 .tag-icon {
     font-size: 5.5rem;
+}
+
+.hero-bg {
+    background-image: url(./image/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
 }
