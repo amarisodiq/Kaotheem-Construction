@@ -34,10 +34,6 @@ nav > ul {
     font-size: 1.2rem;
     padding: 1rem;
 }
-.nav-link:hover{
-    background-color: #08143E;
-    color: white;
-}
 .home-link {
     background-color: #08143E;
     color: white;
