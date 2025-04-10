@@ -8,6 +8,9 @@ body {
     background-image: url(./image/background.jpg);
     background-size: cover;
     background-attachment: fixed;
+} 
+html, body {
+    overflow-x: hidden;
 }
 
 .nav-sec {
@@ -118,4 +121,8 @@ nav > ul {
     background-image: url(./image/hero-bg.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.contact-bg {
+    background-color: rgba(255, 255, 255, 0.247);
 }
