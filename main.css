@@ -126,3 +126,33 @@ nav > ul {
 .contact-bg {
     background-color: rgba(255, 255, 255, 0.247);
 }
+
+/* loop */
+.scrolling-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.loop-bg {
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+.scrolling-content {
+    display: flex;
+    gap: 3rem;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(10);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+/* end of loop */
